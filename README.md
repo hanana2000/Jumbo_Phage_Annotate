@@ -1,4 +1,6 @@
-Jumbo Phage Annotation -- combine summaries script
+## 🧬 Jumbo Phage Annotation
+
+# combine summaries script
 
 This script expects that you have already run SPHAE annotation on all your phages, and that you have a consistent naming prefix for your files (e.g. all files begin with PA- or Phage-). 
 see https://github.com/linsalrob/sphae for more information. 
@@ -7,7 +9,7 @@ requirements:
 - python 3.x
 
 
-## 🚀 Usage
+# 🚀 Usage
 
 You can run the script from the command line as follows:
 
@@ -44,7 +46,11 @@ options:
   --prefix PREFIX       Prefix for the subdirectories to include (e.g. PA-, KA-, Phage-).
 ```
 
+# 📝 Output
+
 Output will be a single .txt file titled "allsummaries.txt" in the "final annotate/" folder, contaning concatenated results of all "_summary.txt" files.
+
+## 🙋‍♀️ Author/ 📬 Contact
 
 For questions of suggestions, contact: 
 
