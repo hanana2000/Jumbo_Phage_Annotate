@@ -2,6 +2,8 @@
 
 ## combine summaries script
 
+This script will combine the .txt files output by SPHAE, with information such as lysogeny markers, virulence factors, and CRISPR genes. 
+
 This script expects that you have already run SPHAE annotation on all your phages, and that you have a consistent naming prefix for your files (e.g. all files begin with PA- or Phage-). 
 see https://github.com/linsalrob/sphae for more information. 
 
@@ -14,7 +16,7 @@ requirements:
 You can run the script from the command line as follows:
 
 ```bash
-python combinesummaries.py --input_folder /path/to/final-annotate/ --prefix PA-
+python combinesummaries.py --input_folder /path/to/final-annotate/ --prefix <prefix>
 
 ```
 This script expects to be pointed to the SPHAE output file, usually titled "final_annotate". This should have individual subdirectories for each annotated genome within it, and in each subdirectory there should be a .gbk, .fasta, .png, .functions, and .txt file. The .txt file is the summary file that this script is looking for. 
