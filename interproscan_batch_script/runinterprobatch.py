@@ -5,6 +5,10 @@ import argparse
 import sys
 
 def run_interproscan_batch(input_folder, prefix, output_folder, interpro_path):
+    """
+    Run interproscan on all aa.fasta files in the given folder
+    
+    """
     # Find all aa.fasta files in the input folder with the specified prefix
     aa_files = []
     for folder in os.listdir(input_folder):
