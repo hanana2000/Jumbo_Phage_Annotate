@@ -11,7 +11,24 @@ to run the scripts provided, it is expected that SPHAE annotation was performed 
 ## 🔡 subscripts: 
 
 - The combinesummaries.py script will combine the .txt files output by SPHAE, with information such as lysogeny markers, virulence factors, and CRISPR genes. 
-- The interproscan runinterprobatch.py script will take all the predicted amino acid sequences by SPHAE and run them through interproscan to detect any interdomain annotations that might have been missed. 
+- The runinterprobatch.py script will take all the SPHAE predicted amino acid sequences and run them through InterProScan to detect any interdomain annotations that might have been missed. 
+- The combineSPHAEinterpro.py script will take the results from SPHAE and InterProScan (after running the runinterprobatch.py script) and combine them into a single .gbk output file. It will also generate a summary file and a top_interpro_hits.tsv file for each genome.
+
+example pipeline: 
+```bash
+# Step 1: Run SPHAE annotation: 
+(sphae) user@MSI:~/folder$ sphae annotate --genome /path/to/PA_genomes/ --output example -k
+
+# Step 2: Combine txt summaries (optional): 
+(sphae) user@MSI:~/folder$ python combinesummaries.py --input_folder /path/to/PA_genomes/example/final-annotate/ --prefix PA-
+
+# Step 3: Run InterProScan on SPHAE predicted proteins: 
+(sphae) user@MSI:~/folder$ python3 runinterprobatch.py --input /path/to/PA_genomes/example/PROCESSING/genome-annotate/ --prefix PA- --output_folder /path/to/InterproScan_Results/ --interpro_path /path/to/interproscan.sh
+
+# Step 4: Combine SPHAE and InterProScan results: 
+(sphae) user@MSI:~/folder$ python3 combineSPHAEinterpro.py --interpro_folder /path/to/InterproScan_Results/PA- --prefix PA- --SPHAE_folder /path/to/PA_genomes/example/final-annotate/ --output_folder /path/to/InterproScan_Results/
+
+```
 
 
 # 🙋‍♀️ Author/ 📬 Contact

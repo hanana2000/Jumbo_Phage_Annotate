@@ -3,7 +3,7 @@
 
 ## runinterprobatch script
 
-This script will take the results from SPHAE and InterProScan (after running the runinterprobatch.py script) and combine them into a single output file. It will also generate a summary file and a top_interpro_hits.tsv file for each genome.
+This script will take the results from SPHAE and InterProScan (after running the runinterprobatch.py script) and combine them into a single .gbk output file. It will also generate a summary file and a top_interpro_hits.tsv file for each genome.
 
 This script expects that you have already run SPHAE annotation on all your phages, and that you have a consistent naming prefix for your files (e.g. all files begin with PA- or Phage-). It also expects that you have already run the interprobatch.py script on all your aa.fasta files.  
 
