@@ -5,6 +5,10 @@ import sys
 import itertools
 
 def combine_results(interpro_folder, prefix, SPHAE_folder, output_folder):
+    """
+    main function: combines all following functions and is called in main
+
+    """
     # Iterate through all subdirectories in the SPHAE folder that begin with the specified prefix
     # Create libraries one phage at a time
     print("\n"+"-"* 60)
