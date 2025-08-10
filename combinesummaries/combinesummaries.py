@@ -3,16 +3,13 @@ import argparse
 import sys
 
 
-
-# input_folder = "/home/hannah/Lia_Research/Phage_Fasta_Files/PA_genomes/example/final-annotate/"
-# prefix = "PA-"
-# os.makedirs(output_folder, exist_ok=True)
-
-
 def combine_summaries(input_folder, prefix):
-    # Combine summary files
-    # if the output folder already exists, it will not be created again
-    # if it does not exist, it will be created
+    """
+    Combine summary files
+    if the output folder already exists, it will not be created again
+    if it does not exist, it will be created
+
+    """
     output_file = os.path.join(input_folder, "allsummaries.txt")
     with open(output_file, "w") as outfile:
     # Iterate through each folder in the input directory

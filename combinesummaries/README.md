@@ -13,7 +13,8 @@ requirements:
 
 ## 🚀 Usage
 
-Currently must run from the same directory that combinesummaries.py is in.
+Currently must run from the same directory that combinesummaries.py is in (or path to script must be specified in the command). 
+
 
 You can run the script from the command line as follows:
 
