@@ -87,7 +87,7 @@ options:
 
 ## 📝 Output
 
-Output will be a .gbk, .txt, and .tsv file for each genome. results will show up in a "<prefix>_results_combined" subdirectory in the specified output folder.
+Output will be a .gbk, .txt, and .tsv file for each genome. Results will show up in a "<prefix>_results_combined" subdirectory in the specified output folder.
 
 the .gbk file will have a new qualifier in each CDS feature that had interproscan hits. this qualifier is called "/interpro_product" and will contain the top interproscan hit for that CDS.
 
