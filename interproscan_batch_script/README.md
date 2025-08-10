@@ -7,7 +7,7 @@ This script will take all the predicted amino acid sequences by SPHAE and run th
 This script expects that you have already run SPHAE annotation on all your phages, and that you have a consistent naming prefix for your files (e.g. all files begin with PA- or Phage-). It also expects that you have interproscan downloaded locally and can run interproscan.sh from the command line. 
 
 see: 
-- https://github.com/linsalrob/sphae and 
+- https://github.com/linsalrob/sphae 
 - https://interproscan-docs.readthedocs.io/en/v5/HowToDownload.html
 for more information. 
 
