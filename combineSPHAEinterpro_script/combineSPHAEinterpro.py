@@ -452,14 +452,14 @@ def create_gbk_lib(keyword, folder, SPHAE_folder, prefix, gbk_path):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Split interproscan results into two folders -- one for SPHAE labeled hypothetical proteins and one for SPHAE annotated proteins.")
-    
+    parser = argparse.ArgumentParser(description="Combine InterProScan results with SPHAE results in a GBK file, with summary.txt and top_interpro_hits.tsv files generated as well.")
+
     parser.add_argument("--interpro_folder", help="Path to the input folder containing subdirectories with interproscan .tsv files.")
     parser.add_argument("--prefix", help="Prefix to filter the aa.fasta files (e.g. PA-, KA-, Phage-).")
     parser.add_argument("--SPHAE_folder", help="Path to the SPHAE results folder (usually labeled 'final-annotate/' by SPHAE).")
     parser.add_argument("--output_folder", help="Path to the output folder where results will be saved.")
     # if all 4 arguments are not provided, print help message
-    if len(sys.argv) < 7:
+    if len(sys.argv) < 9:
         parser.print_help(sys.stderr)
         print("\n")
         sys.exit(1)
