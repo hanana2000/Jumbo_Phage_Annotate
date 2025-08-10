@@ -9,7 +9,9 @@ This script expects that you have already run SPHAE annotation on all your phage
 see: 
 - https://github.com/linsalrob/sphae 
 - https://interproscan-docs.readthedocs.io/en/v5/HowToDownload.html
+
 for more information. 
+
 
 requirements: 
 - python 3.x
