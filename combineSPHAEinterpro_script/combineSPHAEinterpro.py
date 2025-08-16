@@ -1,4 +1,4 @@
-from Bio import SeqIO
+from Bio import SeqIO # type: ignore
 import argparse
 import os
 import sys
