@@ -96,7 +96,7 @@ _PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0217	c76c1abd95bde3975d0afb18633466ae	368
 
 # 🙋‍♀️ Author/ 📬 Contact
 
-For questions of suggestions, contact: 
+For questions or suggestions, contact: 
 
 Hannah Kapoor
 📧 hannahkapoor00@gmail.com 
