@@ -29,7 +29,13 @@ example pipeline:
 (sphae) user@MSI:~/folder$ python3 combineSPHAEinterpro.py --interpro_folder /path/to/InterproScan_Results/PA- --prefix PA- --SPHAE_folder /path/to/PA_genomes/example/final-annotate/ --output_folder /path/to/InterproScan_Results/
 
 ```
+- The find_top_depol_hits.py script batch-runs DIAMOND blastp. For each genome proteome (.faa/.fasta) it builds a DIAMOND database, then queries it with each target gene FASTA to collect the top hits (tabular output).
+- The create_faa_from_gbk.py script creates a .faa file for every .gbk file in the passed directory. it can take a flat directory or nested directory. 
+- The add_colour_notes.py script Adds two things to every CDS feature in GenBank files:
+    - /note: ensures each CDS has a note that includes the value(s) from the existing function qualifier (preserving any prior notes).
+    - /colour: assigns an integer colour code based on a predefined functional category → colour map (Artemis gene color scheme) (compatible with EasyFig).
 
+See each subdirectory README.md for specific info on each script. 
 
 # 🙋‍♀️ Author/ 📬 Contact
 
