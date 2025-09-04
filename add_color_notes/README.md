@@ -1,4 +1,4 @@
-# Colour + Notes Annotator for GenBank (.gbk)
+# 🎨 Colour + Notes Annotator for GenBank (.gbk)
 
 Adds two things to every CDS feature in GenBank files:
 
@@ -20,7 +20,7 @@ pip install biopython
 
 ```
 
-## Colour map (integer codes)
+## 🖌️ Colour map (integer codes)
 
 These match EasyFig’s palette indices:
 
@@ -69,7 +69,7 @@ ARTEMIS color values:
 If a CDS’s function value is not found in the map, no /colour is added for that feature (it still gets /note).
 
 
-## Usage
+## 🧪 Usage
 
 if run without any arguments, this message will be displayed: 
 
@@ -130,7 +130,7 @@ the program can also take flat input:
 
 ```
 
-## Outputs
+## 📊 Outputs
 
 New files:
 ```bash 
@@ -140,3 +140,10 @@ OUTPUT/colour_notes_added/PA-319_colour.gbk, etc.
 
 Console summary prints each file processed and a list of unique function values encountered (helpful sanity check for missed categories).
 
+
+# 🙋‍♀️ Author/ 📬 Contact
+
+For questions of suggestions, contact: 
+
+Hannah Kapoor
+📧 hannahkapoor00@gmail.com 
