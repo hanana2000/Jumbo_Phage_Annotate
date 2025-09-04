@@ -83,11 +83,11 @@ the program can also take flat input:
 
 New files:
 ```bash 
-OUTPUT/colour_notes_added/PA-319_colour.gbk, etc.
+OUTPUT/Prefix/PA-319.faa, etc.
 
 ```
 
-Console summary prints each file processed and a list of unique function values encountered (helpful sanity check for missed categories).
+Console summary prints each file being processed in order.
 
 
 # 🙋‍♀️ Author/ 📬 Contact
