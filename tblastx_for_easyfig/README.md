@@ -2,6 +2,8 @@
 
 If you have run a tblastx between two phage genomes (.fasta nucleotide seqs), and have generated a tabular output file (outfmt 6), you can use this script to retrieve the sequences of the hits from the corresponding gbk files.
 
+note: this script assumes that there is only ONE CDS feature that corresponds to the hit coordinates. If there are multiple overlapping CDS features, it will only retrieve the first one. 
+
 ## Usage: 
 
 if you run the script without any arguments, it will display the help message:
