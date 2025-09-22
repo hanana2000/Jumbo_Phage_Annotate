@@ -31,9 +31,10 @@ example pipeline:
 ```
 - The find_top_depol_hits.py script batch-runs DIAMOND blastp. For each genome proteome (.faa/.fasta) it builds a DIAMOND database, then queries it with each target gene FASTA to collect the top hits (tabular output).
 - The create_faa_from_gbk.py script creates a .faa file for every .gbk file in the passed directory. it can take a flat directory or nested directory. 
-- The add_colour_notes.py script Adds two things to every CDS feature in GenBank files:
+- The add_colour_notes.py script adds two things to every CDS feature in GenBank files:
     - /note: ensures each CDS has a note that includes the value(s) from the existing function qualifier (preserving any prior notes).
     - /colour: assigns an integer colour code based on a predefined functional category → colour map (Artemis gene color scheme) (compatible with EasyFig).
+- The tsv_gbk_retrieve.py script will retrieve the annotation of the hits from the corresponding gbk files if you have run a tblastx between two phage genomes (.fasta nucleotide seqs), and have generated a tsv (outfmt 6).
 
 See each subdirectory README.md for specific info on each script. 
 
