@@ -9,12 +9,7 @@ import subprocess
 import pandas as pd # type: ignore
 
 """
-for each database in the target_genes folder, 
-make a db 
-iterate through all phages
-find top hits 
-move on to next db
-repeat
+Use DIAMOND to find top hit proteins for each target gene from reference fasta files
 
 """
 

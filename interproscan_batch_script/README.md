@@ -73,25 +73,10 @@ Output will be interproscan results for each genome in the given input directory
 
 Here is an example aa.fasta.tsv output for a phage genome: 
 ```bash
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0212	9533aa3e7f92ef62e2ad9599e5f2b1de	571	Pfam	PF07230	Bacteriophage T4-like portal protein (Gp20)	49	508	5.1E-99	T	05-08-2025	IPR010823	Portal protein Gp20	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0334	b5377956a7fa8a73f5d7f82c04112218	576	SMART	SM00382	AAA_5	189	325	2.1E-22	T	05-08-2025	IPR003593	AAA+ ATPase domain	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0334	b5377956a7fa8a73f5d7f82c04112218	576	FunFam	G3DSA:1.10.8.60:FF:000001	ATP-dependent zinc metalloprotease FtsH	324	398	9.7E-24	T	05-08-2025	-	-	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0334	b5377956a7fa8a73f5d7f82c04112218	576	FunFam	G3DSA:3.40.50.300:FF:000277	ATP-dependent zinc metalloprotease FtsH	137	322	2.4E-69	T	05-08-2025	-	-	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0334	b5377956a7fa8a73f5d7f82c04112218	576	Gene3D	G3DSA:1.10.8.60	-	324	398	1.6E-20	T	05-08-2025	-	-	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0334	b5377956a7fa8a73f5d7f82c04112218	576	Pfam	PF01434	Peptidase family M41	405	574	1.3E-40	T	05-08-2025	IPR000642	Peptidase M41	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0334	b5377956a7fa8a73f5d7f82c04112218	576	PANTHER	PTHR23076	METALLOPROTEASE M41 FTSH	79	575	8.4E-159	T	05-08-2025	-	-	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0334	b5377956a7fa8a73f5d7f82c04112218	576	Gene3D	G3DSA:3.40.50.300	-	133	321	2.1E-61	T	05-08-2025	IPR027417	P-loop containing nucleoside triphosphate hydrolase	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0334	b5377956a7fa8a73f5d7f82c04112218	576	Pfam	PF00004	ATPase family associated with various cellular activities (AAA)	193	322	2.6E-38	T	05-08-2025	IPR003959	ATPase, AAA-type, core	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0334	b5377956a7fa8a73f5d7f82c04112218	576	SUPERFAMILY	SSF140990	FtsH protease domain-like	405	575	3.27E-50	T	05-08-2025	IPR037219	Peptidase M41-like	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0334	b5377956a7fa8a73f5d7f82c04112218	576	Gene3D	G3DSA:1.20.58.760	Peptidase M41	399	576	2.3E-53	T	05-08-2025	IPR037219	Peptidase M41-like	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0334	b5377956a7fa8a73f5d7f82c04112218	576	Pfam	PF17862	AAA+ lid domain	345	388	1.1E-9	T	05-08-2025	IPR041569	AAA ATPase, AAA+ lid domain	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0334	b5377956a7fa8a73f5d7f82c04112218	576	Pfam	PF06480	FtsH Extracellular	14	98	0.017	T	05-08-2025	IPR011546	Peptidase M41, FtsH extracellular	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0334	b5377956a7fa8a73f5d7f82c04112218	576	SUPERFAMILY	SSF52540	P-loop containing nucleoside triphosphate hydrolases	151	393	5.66E-62	T	05-08-2025	IPR027417	P-loop containing nucleoside triphosphate hydrolase	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0334	b5377956a7fa8a73f5d7f82c04112218	576	ProSitePatterns	PS00674	AAA-protein family signature.	293	311	-	T	05-08-2025	IPR003960	ATPase, AAA-type, conserved site	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0217	c76c1abd95bde3975d0afb18633466ae	368	Coils	Coil	Coil	106	133	-	T	05-08-2025	-	-	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0217	c76c1abd95bde3975d0afb18633466ae	368	Coils	Coil	Coil	66	93	-	T	05-08-2025	-	-	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0217	c76c1abd95bde3975d0afb18633466ae	368	Coils	Coil	Coil	187	207	-	T	05-08-2025	-	-	-	-
-_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0217	c76c1abd95bde3975d0afb18633466ae	368	Coils	Coil	Coil	232	273	-	T	05-08-2025	-	-	-	-
+_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0213	9533aa3e7f92ef62e2ad9599e5f2b1de	571	Pfam	PF07230	Bacteriophage T4-like portal protein (Gp20)	49	508	5.1E-99	T	05-08-2025	IPR010823	Portal protein Gp20	-	-
+_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0337	b5377956a7fa8a73f5d7f82c04112218	576	SMART	SM00382	AAA_5	189	325	2.1E-22	T	05-08-2025	IPR003593	AAA+ ATPase domain	-	-
+_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0337	b5377956a7fa8a73f5d7f82c04112218	576	FunFam	G3DSA:1.10.8.60:FF:000001	ATP-dependent zinc metalloprotease FtsH	324	398	9.7E-26	T	05-08-2025	-	-	-	-
+_PA-319_Pseudomonas_phage:GXRZAZWF_CDS_0338	b5377956a7fa8a73f5d7f82c04112218	576	FunFam	G3DSA:3.40.50.300:FF:000277	ATP-dependent zinc metalloprotease FtsH	137	322	2.4E-85	T	05-08-2025	-	-	-	-
 ```
 
 # 🙋‍♀️ Author/ 📬 Contact

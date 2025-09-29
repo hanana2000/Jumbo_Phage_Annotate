@@ -57,8 +57,8 @@ Output will be a single .txt file titled "allsummaries.txt" in the "final annota
 
 Example: 
 ```bash
-Contents of PA-337_Pseudomonas_phage_summary.txt from /home/user/Folder/Phage_Fasta_Files/PA_genomes/example/final-annotate/PA-337_Pseudomonas_phage:
-Sample: PA-337_Pseudomonas_phage
+Contents of PA-453_Pseudomonas_phage_summary.txt from /home/user/Folder/Phage_Fasta_Files/PA_genomes/example/final-annotate/PA-453_Pseudomonas_phage:
+Sample: PA-453_Pseudomonas_phage
 Taxa name (Matching hashes):	Pseudomonas virus Yua	561/1000
 Number of CDS: 91
 Total number of CDS annotated as 'hypothetical protein': 39
@@ -72,8 +72,8 @@ No virulence factor genes
 No CRISPR spacers found
 No Defense genes found
 
-Contents of PA-277_Pseudomonas_phage_summary.txt from /home/user/Folder/Phage_Fasta_Files/PA_genomes/example/final-annotate/PA-277_Pseudomonas_phage:
-Sample: PA-277_Pseudomonas_phage
+Contents of PA-765_Pseudomonas_phage_summary.txt from /home/user/Folder/Phage_Fasta_Files/PA_genomes/example/final-annotate/PA-765_Pseudomonas_phage:
+Sample: PA-765_Pseudomonas_phage
 Taxa name (Matching hashes):	Pseudomonas virus Yua	552/1000
 Number of CDS: 89
 Total number of CDS annotated as 'hypothetical protein': 38
@@ -87,8 +87,8 @@ No virulence factor genes
 No CRISPR spacers found
 No Defense genes found
 
-Contents of PA-575_Pseudomonas_phage_summary.txt from /home/user/Folder/Phage_Fasta_Files/PA_genomes/example/final-annotate/PA-575_Pseudomonas_phage:
-Sample: PA-575_Pseudomonas_phage
+Contents of PA-23_Pseudomonas_phage_summary.txt from /home/user/Folder/Phage_Fasta_Files/PA_genomes/example/final-annotate/PA-23_Pseudomonas_phage:
+Sample: PA-23_Pseudomonas_phage
 Taxa name (Matching hashes):	Pseudomonas phage sp. 30-1	763/1000
 Number of CDS: 414
 Total number of CDS annotated as 'hypothetical protein': 304

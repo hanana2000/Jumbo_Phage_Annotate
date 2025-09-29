@@ -125,6 +125,7 @@ the program can also take flat input:
 ```bash
 └── 📁PA-_combined
     ├── PA-187_Pseudomonas_phage_NEW.gbk
+    ├── TEST_file.txt
     ├── PA-277_Pseudomonas_phage_NEW.gbk
     └── PA-312_Pseudomonas_phage_NEW.gbk
 

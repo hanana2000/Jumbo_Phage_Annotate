@@ -53,7 +53,7 @@ def add_colour_and_notes(input_folder, prefix, output_folder):
     if not gbk_paths:
         print(f"no .gbk files found that start with {prefix} and end with .gbk in {input_folder}")
         return
-    # add color and notes to gbk file and output in output dir
+    # add color and notes to gbk files and output in output dir
     for gbk in gbk_paths: 
         parse_gbk(gbk, output_folder_results)
             
