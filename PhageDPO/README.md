@@ -95,7 +95,7 @@ options:
 
 If the specified output folders do not exist, the scripts will create them.
 
-the input for the --PhageDPO_tsv must be the folder containing the tsv results from html_to_tsv.py script. see the output section above for example file structure. 
+the input for the --PhageDPO_tsv must be the subfolder containing the tsv results from html_to_tsv.py script. See the html_to_tsv.py output section above for example file structure.
 
 
 ### Output of top_DPO_hits.py: 
@@ -120,6 +120,19 @@ PERCENTAGE_THRESHOLD = 85.0
 ```
 
 This will filter the results to include only those with a prediction score greaten than the specified threshold. 
+
+
+The tsv files will have two columns of CDS ID and model DPO Prediction (%). Example: 
+
+```bash
+CDS	ID	model DPO Prediction (%)
+18	AGNWHBCZ_CDS_0018 homing endonuclease Ph805_Mycobacterium_phage	89.0
+22	AGNWHBCZ_CDS_0022 baseplate wedge initiator Ph805_Mycobacterium_phage	87.0
+25	AGNWHBCZ_CDS_0025 tail sheath Ph805_Mycobacterium_phage	97.0
+
+```
+
+If no DPO hits are found above the threshold, the output tsv file will contain only the header row.
 
 
 # 🙋‍♀️ Author/ 📬 Contact
