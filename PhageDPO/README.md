@@ -82,7 +82,7 @@ If the top_DPO_hits.py script is run without any arguments, it will display this
 ```bash 
 usage: top_DPO_hits.py [-h] --PhageDPO_tsv PHAGEDPO_TSV --output_folder OUTPUT_FOLDER
 
-Create .ffn files for all .gbk files found in passed directory.
+find all DPO hits above a specified threshold from PhageDPO tsv results
 
 options:
   -h, --help            show this help message and exit

@@ -35,7 +35,7 @@ def get_top_DPO(PhageDPO_tsv, output_folder):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Create .ffn files for all .gbk files found in passed directory.")
+    parser = argparse.ArgumentParser(description="find all DPO hits above a specified threshold from PhageDPO tsv results")
 
     parser.add_argument("--PhageDPO_tsv", required= True, help="Path to the input folder containing PhageDPO results in tsv format.")    
     parser.add_argument("--output_folder", required= True, help="Path to the output folder where results will be saved.")
