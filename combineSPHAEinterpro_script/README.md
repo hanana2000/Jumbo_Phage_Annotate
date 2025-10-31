@@ -96,10 +96,10 @@ If the CDS was labeled as hypothetical by SPHAE but interproscan found a hit, th
 Example snippet of .gbk file: 
 ```bash
 
-     CDS             38159..38512
+     CDS             36479..38517
                      /ID="KACWZWFB_CDS_0061"
                      /transl_table=11
-                     /phrog="5888"
+                     /phrog="6574"
                      /locus_tag="KACWZWFB_CDS_0061"
                      /function="unknown function"
                      /product="hypothetical protein | Phage Pam3 gp32-like
@@ -110,10 +110,10 @@ Example snippet of .gbk file:
                      FRPEPIIDELKEKLADFGPGDHLLLVGNPVLIGFAVAIAADANDGDVSLLQWSGKDQRY
                      IAVDASGLFTSSD"
                      /protein_id="PA-187_Pseudomonas_phage_60"
-     CDS             38572..39117
+     CDS             38572..39145
                      /ID="KACWZWFB_CDS_0062"
                      /transl_table=11
-                     /phrog="3377"
+                     /phrog="8239"
                      /locus_tag="KACWZWFB_CDS_0062"
                      /function="DNA, RNA and nucleotide metabolism"
                      /product="HNH endonuclease"

@@ -36,6 +36,11 @@ example pipeline:
     - /colour: assigns an integer colour code based on a predefined functional category → colour map (Artemis gene color scheme) (compatible with EasyFig).
 - The tsv_gbk_retrieve.py script will retrieve the annotation of the hits from the corresponding gbk files if you have run a tblastx between two phage genomes (.fasta nucleotide seqs), and have generated a tsv (outfmt 6).
 
+## 🛠 PhageDPO Post-Processing Scripts:
+PhageDPO is a tool for predicting depolymerase enzymes in phage genomes. This repository contains two scripts to help process the results from PhageDPO:
+- The html_to_tsv.py script will convert the html results produced by PhageDPO to tsv format.
+- The top_DPO_hits.py script will find the top DPO hits from the tsv files produced by html_to_tsv.py script.
+
 See each subdirectory README.md for specific info on each script. 
 
 # 🙋‍♀️ Author/ 📬 Contact

@@ -91,7 +91,7 @@ OUTPUT/Prefix/PA-319.faa, etc.
 
 Console summary prints each file being processed in order.
 
-for the .fna files, the output will be in .faa format, and the ffn files will be in .fasta format. 
+for the .fna files, the output will be in .faa format, and the .ffn files will be in .fasta format. 
 you can rename the files to have the .fasta extension if desired.
 
 # 🙋‍♀️ Author/ 📬 Contact
